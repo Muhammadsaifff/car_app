@@ -27,7 +27,7 @@ This Flutter application displays a list of popular cars with images and detaile
 
 2. **Install dependencies:**
 
-  flutter pub get
+   flutter pub get
 
 3. **Run the app:**
 
