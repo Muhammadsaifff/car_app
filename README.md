@@ -21,39 +21,44 @@ This Flutter application displays a list of popular cars with images and detaile
 ### Installation
 
 1. **Clone the repository:**
-   
-   git clone https://github.com/your-username/car-hero-app.git
+```bash
+   git clone https://github.com/Muhammadsaifff/car_app.git
    cd car-hero-app
-
+```
 2. **Install dependencies:**
-
+```bash
    flutter pub get
-
+```
 3. **Run the app:**
-
+```bash
    flutter run
-
+```
 ## 📁 Assets
 This app uses local images for car thumbnails and hero transitions. Ensure you have the following images placed inside the assets/images/ directory:
 
   supra.png
+  
   mustang.png
+  
   gtr.png
+  
   huracan.png
+  
   m4.png
+  
   corvette.png
 
 Also, declare them in your pubspec.yaml:
-
+```bash
 flutter:
-  assets:
+   assets:
     - assets/images/supra.png
     - assets/images/mustang.png
     - assets/images/gtr.png
     - assets/images/huracan.png
     - assets/images/m4.png
     - assets/images/corvette.png
-
+```
 ## 🧪 Usage
 Launch the app.
 
@@ -64,9 +69,9 @@ Tap on any car to navigate to its detail screen.
 Observe the Hero animation in action as the image transitions between screens.
 
 You can modify the timeDilation value in main() to adjust animation speed:
-
+```bash
   timeDilation = 5.0; // Slower animation for better visualization
-
+```
 ## 🛠️ Built With
 Flutter - UI toolkit for building natively compiled apps
 
@@ -83,11 +88,12 @@ Practice Flutter basics like navigation, stateless widgets, and asset management
 
 Develop responsive UIs with ListView and widget composition.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
-Muhammad Saif Shakil
+Muhammad Saif Shakil 
+
 GitHub: @Muhammadsaifff
 
 Feel free to open issues or submit pull requests to enhance this app!
