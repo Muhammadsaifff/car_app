@@ -23,7 +23,7 @@ This Flutter application displays a list of popular cars with images and detaile
 1. **Clone the repository:**
 ```bash
    git clone https://github.com/Muhammadsaifff/car_app.git
-   cd car-hero-app
+   cd car_app
 ```
 2. **Install dependencies:**
 ```bash
