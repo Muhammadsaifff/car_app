@@ -1,8 +1,8 @@
-# 🚗 Car App with Hero Animation
+# Car App with Hero Animation
 
 This Flutter application displays a list of popular cars with images and detailed descriptions. It features smooth navigation between the list and detail views using Flutter's `Hero` animation for visually appealing transitions.
 
-## ✨ Features
+## Features
 
 - Displays a list of high-performance and luxury cars.
 - Each car has a name, image, and detailed description.
@@ -10,7 +10,7 @@ This Flutter application displays a list of popular cars with images and detaile
 - Uses `timeDilation` to slow down animations for better visual understanding (useful for learning Hero transitions).
 - Clean and simple UI using Flutter widgets.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -33,20 +33,15 @@ This Flutter application displays a list of popular cars with images and detaile
 ```bash
    flutter run
 ```
-## 📁 Assets
+## Assets
 This app uses local images for car thumbnails and hero transitions. Ensure you have the following images placed inside the assets/images/ directory:
 
-  supra.png
-  
-  mustang.png
-  
-  gtr.png
-  
-  huracan.png
-  
-  m4.png
-  
-  corvette.png
+  - supra.png
+  - mustang.png
+  - gtr.png
+  - huracan.png
+  - m4.png
+  - corvette.png
 
 Also, declare them in your pubspec.yaml:
 ```bash
@@ -59,7 +54,7 @@ flutter:
     - assets/images/m4.png
     - assets/images/corvette.png
 ```
-## 🧪 Usage
+## Usage
 Launch the app.
 
 Browse the list of cars.
@@ -70,28 +65,25 @@ Observe the Hero animation in action as the image transitions between screens.
 
 You can modify the timeDilation value in main() to adjust animation speed:
 ```bash
-  timeDilation = 5.0; // Slower animation for better visualization
+  timeDilation = 5.0; // Slower animation 
 ```
-## 🛠️ Built With
-Flutter - UI toolkit for building natively compiled apps
+## Built With
+- Flutter - UI toolkit for building natively compiled apps
+- Dart - Programming language used with Flutter
+- Material Design Components
+- Hero Widget for animations
 
-Dart - Programming language used with Flutter
-
-Material Design Components
-
-Hero Widget for animations
-
-## 📚 Learning Goals
+## Learning Goals
 Understand and implement Hero animations.
 
 Practice Flutter basics like navigation, stateless widgets, and asset management.
 
 Develop responsive UIs with ListView and widget composition.
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+## Author
 Muhammad Saif Shakil 
 
 GitHub: @Muhammadsaifff
